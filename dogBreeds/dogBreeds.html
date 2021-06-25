@@ -1,0 +1,42 @@
+<!-- 1.Create page which contains a select with options of the following dog breeds:
+-- Select a breed --
+2. Akita
+Beagle
+Dalmatian German Shepherd Husky
+Labrador
+Pug
+Golden Retriever Cocker Spaniel
+When an option is selected from this list(except from “--Select a breed--”) an image of a dog
+of the selected breed should be loaded.
+To get an image use API endpoints described https://dog.ceo/dog-api/documentation/breed -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dog breeds</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <select name="dogs" id="dogs">
+    <option selected value="#">-- Select a breed --</option>
+    <option value="akita">Akita</option>
+    <option value="beagle">Beagle</option>
+    <option value="dalmatian">Dalmatian</option>
+    <option value="germanshepherd">German Shepherd</option>
+    <option value="husky">Husky</option>
+    <option value="labrador">Labrador</option>
+    <option value="pug">Pug</option>
+    <option value="retriever-golden">Retriever Golden</option>
+    <option value="spaniel">Cocker Spaniel</option>
+  </select>
+
+  <div id="images"></div>
+      
+  <script defer src="./app.js"></script>   
+</body>
+</html>
+
