@@ -1,0 +1,21 @@
+body{
+  background: rgb(108, 129, 66);
+}
+
+#film-fm {
+    width: 40%;
+    margin: 15px 15px;
+    padding: 15px;
+    background:yellowgreen;
+    float:left;
+  }
+  
+  #film-fm input,
+  textarea {
+    background: rgb(209, 224, 178);
+    margin: 12px;
+    padding: 6px;
+    min-width: 150px;
+    width: 40%;
+  }
+
